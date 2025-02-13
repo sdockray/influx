@@ -193,7 +193,7 @@ export default function InfluxReactComponent(props: InfluxReactComponentProps): 
 							const entryHeader = settings.entryHeaderVisible && extended.titleInnerHTML && !extended.inlinkingFile.isLinkInTitle ? (
 								<h2>
 									<span
-										dangerouslySetInnerHTML={{ __html: extended.titleInnerHTML }}
+										dangerouslySetInnerHTML={{ __html: extended.titleInnerHTML.replace(/ir="auto">_/g, '') }}
 									/>
 								</h2>
 							) : null

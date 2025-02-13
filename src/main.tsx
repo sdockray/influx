@@ -62,7 +62,6 @@ export default class ObsidianInflux extends Plugin {
 	delayedShowCallbacks: { editor: EditorView, callback: () => void, time: number }[] = [];
 
 	async onload(): Promise<void> {
-
 		this.componentCallbacks = {}
 		this.updating = false
 		this.api = new ApiAdapter(this.app)

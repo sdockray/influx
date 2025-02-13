@@ -1,5 +1,5 @@
 > **Note**
-> As the creator mentioned below, the plugin is no longer maintained. Check out an [alternative implementation](https://github.com/ivan-lednev/better-search-views)
+> This is a fork of the Influx plugin, which sadly is no longer maintained. I could tolerate that until it stopped working with newer Obsidian updates and because I rely on it I have decided to fork the old plugin and update it so it works.
 
 > **Warning**
 > I'm sad to say I can't find the time to maintain this plug-in. As such, issues will not be read. I may merge pull requests from time to time. If you think you can maintain this plugin please contact me.

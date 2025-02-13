@@ -22,6 +22,7 @@ export class StatefulDecorationSet {
         const apiAdapter = new ApiAdapter(app)
         // @ts-ignore
         const influxFile = new InfluxFile(file.path, apiAdapter, app.plugins.plugins.influx)
+        console.log(influxFile)
         await influxFile.makeInfluxList()
         await influxFile.renderAllMarkdownBlocks()
 
